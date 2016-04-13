@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="en"><head>
+		<meta charset="utf-8">
+		<link href="mapjs.css" rel="stylesheet">
+		<link href="mindmup-icons.css" rel="stylesheet">
+<script type="text/javascript">
+if (!Function.prototype.bind) {
+	Function.prototype.bind = function (oThis) {
+		'use strict';
+		if (typeof this !== 'function') {
+			// closest thing possible to the ECMAScript 5 internal IsCallable function
+			throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
+		}
+		var aArgs = Array.prototype.slice.call(arguments, 1),
+		fToBind = this,
+		FNOP = function () {},
+		fBound = function () {
+			return fToBind.apply(this instanceof FNOP && oThis ? this : oThis, aArgs.concat(Array.prototype.slice.call(arguments)));
+		};
+		FNOP.prototype = this.prototype;
+		fBound.prototype = new FNOP();
+		return fBound;
+	};
+}
+Math.sign = Math.sign || function (val) {
+	return val >= 0 ? 1 : -1;
+};
+
+</script>
+		<script src="mapjs-browserified.min.js"></script>
+		
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="MindMup mind map: Base">
+
+
+	<style id="themeCSS" type="text/css">.mapjs-node{border-radius:10px;background-color:#E0E0E0;border:1px solid #707070;box-shadow:2px 2px 2px rgba(7,7,7,0.4);padding:5px;text-align:center;color:#4F4F4F;font:normal normal bold 9pt/11.5pt -apple-system, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;}.mapjs-node.mapjs-node-light{color:#4F4F4F;}.mapjs-node.mapjs-node-dark{color:#EEEEEE;}.mapjs-node.mapjs-node-white{color:#000000;}.mapjs-node .mapjs-decorations{position:absolute;right:0;top:-10px;}.mapjs-node.level_1{background-color:#22AAE0;}.mapjs-node.activated{border:undefinedpx solid #22AAE0;}.mapjs-node.selected{box-shadow:2px 2px 2px rgba(0,0,0,0.9);}.mapjs-node.collapsed{box-shadow:0px 1px 0px #888888,0px 3px 0px #FFFFFF,0px 4px 0px #888888,0px 6px 0px #FFFFFF,0px 7px 0px #888888;}.mapjs-node.collapsed.selected{box-shadow:0px 1px 0px #FFFFFF,0px 3px 0px #888888,0px 6px 0px #FFFFFF,0px 7px 0px #555555,0px 10px 0px #FFFFFF,0px 11px 0px #333333;}</style><title>Base</title><script>window.config={"staticAtlasUrl":"https://atlas.mindmup.com/_resources/5/","gaCode":"UA-37452180-14","urlPrefix":"https://atlas.mindmup.com/2016/04/64879270e3790133f5ea0124f85ebe71/base"};</script></head>
+	<body><img class="img-thumb" src="https://atlas.mindmup.com/2016/04/64879270e3790133f5ea0124f85ebe71/base/thumb.png">
+	 <style>
+			html, body {
+				height: 100%;
+				overflow:hidden;
+				margin:0;
+				padding:0;
+				-webkit-tap-highlight-color: transparent;
+			}
+			#container {
+				background-color: #FFFFFF;
+				height: 100%;
+				width: 100%;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+				-webkit-tap-highlight-color: transparent;
+			}
+			#attachment-container {
+				width:100%;
+				height:100%;
+				min-height: 100%;
+				overflow: hidden;
+				background-color: #E0E0E0;
+			}
+			#attachment {
+				width :94%;
+				height: 95%;
+				width:calc(100% - 100px);
+				height:calc(100% - 100px);
+				margin: 30px;
+				padding: 20px;
+				border: 1px solid #777;
+				border-radius: 10px;
+				background-color: white;
+				overflow: auto;
+				color:#4F4F4F;
+			}
+
+			.close.attachment {
+				top: 12px;
+				right: 10px;
+				border: 1px solid #777;
+				position: fixed;
+				text-align: center;
+				height: 34px;
+				width:34px;
+				background-color: white;
+				border-radius: 18px;
+				font-weight: bold;
+				text-decoration: none;
+				z-index:999;
+				font-family: Arial,Helvetica,sans-serif;
+				font-size: 30px;
+				color:black;
+				box-shadow: 2px 2px 2px #777;
+			}
+			.img-thumb {
+				opacity: 0;
+				z-index: -1;
+				position:absolute;
+			}
+			#attachment iframe {
+				width: calc(100% - 30px);
+				height: calc(100% - 30px);
+				border: 0;
+			}
+			.note {
+				white-space: pre-wrap;
+			}
+	</style>
+		<div id="container" style="overflow-x: auto; overflow-y: auto; " tabindex="1" data-drag-role="container"><div style="position: fixed; opacity: 1; min-width: 429px; min-height: 429px; width: 429px; height: 429px; top: 50%; left: 50%; transform: translate(calc(-50% + 214px) , calc(-50% + 214px));" data-mapjs-role="stage"><div data-mapjs-role="reorder-bounds" class="mapjs-reorder-bounds" style="display: none; position: absolute; "></div><div id="node_1" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(255, 255, 0); left: -20px; top: -15px; min-width: 28px; " class="mapjs-node level_1 mapjs-node-light activated selected" mapjs-level="1"><span data-mapjs-role="title" style="">Base</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><div id="node_39" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(51, 102, 255); left: -108px; top: -62px; min-width: 56px; " class="mapjs-node level_2 mapjs-node-dark collapsed" mapjs-level="2"><span data-mapjs-role="title" style="">Materials</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><div id="node_28" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(51, 102, 255); left: -79px; top: -12px; min-width: 27px; " class="mapjs-node level_2 mapjs-node-dark collapsed" mapjs-level="2"><span data-mapjs-role="title" style="">OOD</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><div id="node_70" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(51, 102, 255); left: -184px; top: 48px; min-width: 116px; " class="mapjs-node level_2 mapjs-node-dark collapsed" mapjs-level="2"><span data-mapjs-role="title" style="">Useful instruments</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><div id="node_2" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(51, 102, 255); left: 40px; top: -40px; min-width: 66px; " class="mapjs-node level_2 mapjs-node-dark collapsed" mapjs-level="2"><span data-mapjs-role="title" style="">Algorithms</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><div id="node_8" tabindex="0" data-mapjs-role="node" style="display: block; position: absolute; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; margin-top: 0px; background-color: rgb(51, 102, 255); left: 40px; top: 10px; min-width: 95px; " class="mapjs-node level_2 mapjs-node-dark collapsed" mapjs-level="2"><span data-mapjs-role="title" style="">Data Structures</span><div data-mapjs-role="decorations" class="mapjs-decorations"></div></div><svg id="connector_1_39" data-mapjs-role="connector" class="mapjs-draw-container" style="left: -108px; top: -62px; width: 128px; height: 79px; "><path class="mapjs-connector" d="M108,62Q108,-20 68,15"></path></svg><svg id="connector_1_28" data-mapjs-role="connector" class="mapjs-draw-container" style="left: -79px; top: -15px; width: 99px; height: 35px; "><path class="mapjs-connector" d="M69,15Q69,18 39,18"></path></svg><svg id="connector_1_70" data-mapjs-role="connector" class="mapjs-draw-container" style="left: -184px; top: -15px; width: 204px; height: 95px; "><path class="mapjs-connector" d="M184,15Q184,123 128,78"></path></svg><svg id="connector_1_2" data-mapjs-role="connector" class="mapjs-draw-container" style="left: -20px; top: -40px; width: 138px; height: 57px; "><path class="mapjs-connector" d="M20,40Q20,-4 60,15"></path></svg><svg id="connector_1_8" data-mapjs-role="connector" class="mapjs-draw-container" style="left: -20px; top: -15px; width: 167px; height: 57px; "><path class="mapjs-connector" d="M20,15Q20,59 60,40"></path></svg></div></div>
+		<div id="attachment-container" class="attachment" style="display: none; ">
+			<div id="attachment" class="attachment" style="display: none; "></div>
+		</div>
+		<a href="#" class="close attachment" style="display: none; ">×</a>
+<script type="text/javascript">
+		window.onload = function () {
+			var container = jQuery('#container'),
+					mindmupMap = jQuery('#mindmup-map'),
+					isTouch = 'ontouchstart' in document.documentElement,
+					mapModel = new MAPJS.MapModel(MAPJS.DOMRender.layoutCalculator, []),
+					fakeImageController = observable({}),
+					fakeMapController = observable({}),
+					layoutThemeStyle = function (mapJson) {
+						var themeJson = mapJson.theme || MAPJS.Themes.default,
+							themeCSS = themeJson && new MAPJS.ThemeProcessor().process(themeJson).css;
+						if (!themeCSS) {
+							return false;
+						}
+						MAPJS.DOMRender.theme = new MAPJS.Theme(themeJson);
+						if (!window.themeCSS) {
+							jQuery('<style id="themeCSS" type="text/css"></style>').appendTo('head').text(themeCSS);
+						}
+						return true;
+					};
+			window.showMap = function (jsonContent) {
+				var idea = MAPJS.content(jsonContent);
+				layoutThemeStyle(jsonContent);
+				fakeMapController.dispatchEvent('mapLoaded', 'internal', idea);
+				mapModel.setIdea(idea);
+			};
+			window.mapModel = mapModel;
+			container.empty().domMapWidget(observable({}), mapModel, isTouch, observable({}), container, _.identity);
+			jQuery('.attachment').hide();
+			mapModel.addEventListener('decorationActionRequested', function (nodeId, decorationType) {
+				var note;
+				if (decorationType === 'note') {
+					note = mapModel.getIdea().getAttrById(nodeId, 'note')
+					if (note && note.text) {
+						$('#attachment').empty();
+						$('#attachment').text(note.text).addClass('note');
+						container.hide();
+						jQuery('.attachment').show();
+					}
+				}
+			});
+			mapModel.addEventListener('attachmentOpened', function (nodeId, attachment) {
+				var embeddableContent = function (contentType) {
+						return contentType && ('application/pdf' === contentType || /^image\//.test(contentType) || /^text\//.test(contentType));
+					};
+
+				if (attachment.contentType == 'application/vnd.google.drive.attachment') {
+					var url = attachment.content.url || attachment.content.embedUrl;
+					if (url) {
+						window.open(url);
+					}
+				} else if (attachment.dataUriEncoded) {
+					$('#attachment').empty().removeClass('note');
+					if (embeddableContent(attachment.contentType)) {
+						$('<iframe>').attr('src', attachment.content).appendTo('#attachment');
+						container.hide();
+						jQuery('.attachment').show();
+					} else {
+						$(document).nodeWithId(nodeId).find('.mapjs-attachment').attr({'download': attachment.name, 'href':attachment.content, 'target': '_blank'});
+					}
+				} else {
+					$('#attachment').html(attachment.content);
+					container.hide();
+					jQuery('.attachment').show();
+				}
+			});
+			jQuery('.close.attachment').click(function () {
+				jQuery('.attachment').hide();
+				$('#attachment').removeClass('note');
+				container.show();
+			});
+			MAPJS.DOMRender.stageMargin = {top: 50, left: 50, bottom: 50, right: 50};
+			mapModel.setEditingEnabled(false);
+			if (mindmupMap.text()) {
+				showMap(JSON.parse(mindmupMap.text()));
+			}
+		};
+</script>
+
+	<textarea style="display:none" id="mindmup-map">{"title":"Base","ideas":{"1":{"title":"Algorithms","ideas":{"1":{"title":"Complexity","ideas":{"1":{"title":"big O notation","id":4,"ideas":{"1":{"title":"by time","id":42},"2":{"title":"by data","id":43}}},"2":{"title":"table http://bigocheatsheet.com/","id":85,"attr":{"style":{}}}},"id":3},"2":{"title":"Recursion http://visualgo.net/recursion.html","ideas":{"1":{"title":"basic http://codingbat.com/java/Recursion-1","id":6},"2":{"title":"backtracking recursion problem http://codingbat.com/java/Recursion-2","id":7},"3":{"title":"video","id":89}},"id":5},"3":{"title":"sort","id":51,"ideas":{"1":{"title":"bubble,insertion,selection","id":52},"2":{"title":"quick","id":53,"ideas":{}},"3":{"title":"merge","id":55},"4":{"title":"resources","id":67,"ideas":{"1":{"title":"link1 http://visualgo.net/sorting.html","id":68},"2":{"title":"link2 https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html","id":69,"attr":{"style":{}}}}}}},"1.5":{"title":"search https://www.cs.usfca.edu/~galles/visualization/Search.html","id":56,"ideas":{"1":{"title":"linear","id":57},"2":{"title":"binary","id":58}},"attr":{"style":{}}}},"id":2,"attr":{"style":{"background":"#3366ff"},"collapsed":true}},"2":{"title":"Data Structures","ideas":{"1":{"title":"static - based on array","ideas":{"1":{"title":"ArrayList","id":10},"2":{"title":"hash structure https://www.cs.usfca.edu/~galles/visualization/OpenHash.html","ideas":{"1":{"title":"HashMap ","id":12},"2":{"title":"HashSet https://youtu.be/U_xtKiYo1is?list=PLvmHg49t5OCQeODC20iDQpBOXFXHJz2em&amp;t=2995","id":13,"attr":{"position":[278.5,32.322265625,1],"style":{}}}},"id":11}},"id":9},"2":{"title":"dynamic - based on nodes","ideas":{"4":{"title":"java","id":60,"ideas":{"1":{"title":"LinkedList http://visualgo.net/list.html","id":15,"attr":{"style":{}}},"2":{"title":"TreeMap https://www.cs.usfca.edu/~galles/visualization/RedBlack.html","id":16,"attr":{"style":{}}},"3":{"title":"TreeSet","id":17,"attr":{"style":{},"position":[190.5,69.53125,1]}}}},"1.5":{"title":"BinarySearchTree ","id":59,"attr":{"style":{}},"ideas":{"1":{"title":"link1 https://www.cs.usfca.edu/~galles/visualization/BST.html","id":65},"2":{"title":"link2 http://visualgo.net/bst.html","id":66}}}},"id":14},"3":{"title":"How to choose","ideas":{"1":{"title":"methods - operations over ds","id":19},"2":{"title":"analyze  algorithm complexity of methods","id":20,"ideas":{}},"3":{"title":"inner structure","id":21,"ideas":{"1":{"title":"see visualization","id":63}}}},"id":18},"4":{"title":"book","ideas":{"1":{"title":"Лафоре Роберт - Структуры данных и алгоритмы","id":23},"2":{"title":"Роберт Седжвик, Кевин Уэйн \"Алгоритмы на Java\"","id":24},"3":{"title":"advanced ","id":79,"ideas":{"1":{"title":"Алгоритмы: построение и анализ https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B:_%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7","id":81}}}},"id":22}},"id":8,"attr":{"style":{"background":"#3366ff"},"collapsed":true}},"-10":{"title":"Materials","id":39,"ideas":{"1":{"title":"video","ideas":{"1":{"title":"DS https://www.youtube.com/watch?v=1QkGZlPmQS0&amp;index=1&amp;list=PLvmHg49t5OCTvxTZLfMSujSHO-0iLLVg1","id":26},"2":{"title":"solid + recursion + ds https://www.youtube.com/watch?v=1QkGZlPmQS0&amp;index=1&amp;list=PLvmHg49t5OCTvxTZLfMSujSHO-0iLLVg1","id":27}},"id":25,"attr":{"style":{}}},"2":{"title":"Visualization","ideas":{"1":{"title":"visualgo http://visualgo.net/","id":36},"2":{"title":"algo https://www.cs.usfca.edu/~galles/visualization/Algorithms.html","id":37}},"id":35,"attr":{"style":{}}},"3":{"title":"java collections big note https://drive.google.com/open?id=0B3pUqYFBBsi-a0s0UHp1S1dOc0k","id":38,"attr":{"style":{}},"ideas":{"1":{"title":"requires xmind application http://www.xmind.net/","id":44}}}},"attr":{"style":{"background":"#3366ff"},"collapsed":true}},"-20":{"title":"OOD","ideas":{"1":{"title":"Design Patterns ","ideas":{"1":{"title":"GOF https://ru.wikipedia.org/wiki/Design_Patterns","ideas":{"1":{"title":"21 patterns","id":31,"ideas":{"1":{"title":"Creational","id":47,"ideas":{}},"2":{"title":"Structural","id":48,"ideas":{}},"3":{"title":"Behavioral","id":49,"ideas":{}}}}},"id":30},"2":{"title":"book","ideas":{"1":{"title":"Head First Design Patterns http://www.sws.bfh.ch/~amrhein/ADP/HeadFirstDesignPatterns.pdf","id":33}},"id":32}},"id":29,"attr":{"position":[114.5,-82.25,1],"style":{}}},"2":{"title":"SOLID https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)","id":46,"attr":{"style":{}}},"1.5":{"title":"video https://www.youtube.com/watch?v=VM4hCh7GTI4&amp;index=7&amp;list=PLvmHg49t5OCQeODC20iDQpBOXFXHJz2em","id":87}},"id":28,"attr":{"style":{"background":"#3366ff"},"collapsed":true}},"-30":{"title":"Useful instruments","id":70,"attr":{"position":[76.5,63,1],"style":{"background":"#3366ff"},"collapsed":true},"ideas":{"1":{"title":"code visualizer http://www.pythontutor.com/visualize.html#mode=edit","id":71,"ideas":{},"attr":{"style":{}}},"2":{"title":"mindmaps","id":72,"ideas":{"1":{"title":"applications","id":73,"ideas":{"1":{"title":"xmind http://www.xmind.net/","id":74},"2":{"title":"freemind http://freemind.sourceforge.net/wiki/index.php/Main_Page","id":75},"3":{"title":"mindmup https://www.mindmup.com/","id":78}}}}}}}},"formatVersion":2,"id":1,"links":[{"ideaIdFrom":17,"ideaIdTo":16,"attr":{"style":{"color":"#FF0000","lineStyle":"solid","arrow":true}}},{"ideaIdFrom":13,"ideaIdTo":12,"attr":{"style":{"color":"#FF0000","lineStyle":"solid","arrow":true}}},{"ideaIdFrom":29,"ideaIdTo":87,"attr":{"style":{"color":"#FF0000","lineStyle":"solid","arrow":true}}},{"ideaIdFrom":46,"ideaIdTo":87,"attr":{"style":{"color":"#FF0000","lineStyle":"solid","arrow":true}}}],"attr":{"style":{"background":"#ffff00"}},"export":{"title":"Base","slug":"base","description":"MindMup mind map: Base"}}</textarea>
+	<p>Created using <a href="https://www.mindmup.com">MindMup.com</a></p>
+
+
+</body></html>
